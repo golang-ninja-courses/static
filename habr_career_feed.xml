@@ -1,4 +1,4 @@
-<yml_catalog date="2024-07-12 10:19">
+<yml_catalog date="2024-07-16 19:28">
 	<shop>
 		<name>Хабр Карьера / GOLANG NINJA</name>
 		<company>GOLANG NINJA</company>
@@ -8,95 +8,6 @@
 		</currencies>
 		<offers>
 			<offer id="1" available="true">
-				<name>Искусство работы с ошибками в Go (Golang)</name>
-				<url>https://golang-ninja.ru/?utm_source=habr_career&amp;utm_medium=cpa&amp;utm_campaign=general#store</url>
-				
-				<price>17330</price> 
-				<oldprice>27730</oldprice>
-				<currencyId>RUB</currencyId> 
-				
-				<specialization>Бэкенд разработчик</specialization> 
-				
-				<param name="Дата начала">В любой момент</param>
-				<duration unit="week">6</duration> 
-				
-				<skills> 
-					<skill id="1">Docker</skill>
-					<skill id="2">Git</skill>
-					<skill id="3">Golang</skill>
-					<skill id="4">Тестирование ПО</skill>
-				</skills>
-				<description>Грамотная обработка ошибок – это залог отказоустойчивости твоего приложения, и здесь не всё так очевидно, как кажется на первый взгляд. if err := buyCourse(); err != nil { promotion(); }</description>
-
-				<param name="Оплата в рассрочку" unit="месяц">Нет</param>
-				<param name="Формат занятий">online</param> 
-				<param name="Требуемая квалификация">Middle</param> 
-				<param name="Получаемая квалификация">Senior</param> 
-				<param name="Выдаётся сертификат">Да</param> 
-				<param name="Помощь с трудоустройством">Нет</param> 
-			</offer>
-
-			<offer id="2" available="true">
-				<name>Искусство безмолвной паники в Go (Golang)</name>
-				<url>https://golang-ninja.ru/?utm_source=habr_career&amp;utm_medium=cpa&amp;utm_campaign=general#store</url>
-				
-				<price>13620</price>
-				<oldprice>21790</oldprice>
-				<currencyId>RUB</currencyId> 
-				
-				<specialization>Бэкенд разработчик</specialization> 
-				
-				<param name="Дата начала">В любой момент</param>
-				<duration unit="week">3</duration> 
-				
-				<skills>
-					<skill id="1">Assembler</skill>
-					<skill id="2">Docker</skill>
-					<skill id="3">Git</skill>
-					<skill id="4">Golang</skill>
-					<skill id="5">Тестирование ПО</skill>
-				</skills>
-				<description>Без паники – мы не на Титанике! По полочкам разбираем панику в Go, а также неотрывно связанный с ней механизм отложенных функций. Кто боится кода рантайма и ассемблера, тому не входить!</description>
-
-				<param name="Оплата в рассрочку" unit="месяц">Нет</param>
-				<param name="Формат занятий">online</param> 
-				<param name="Требуемая квалификация">Middle</param> 
-				<param name="Получаемая квалификация">Senior</param> 
-				<param name="Выдаётся сертификат">Да</param> 
-				<param name="Помощь с трудоустройством">Нет</param> 
-			</offer>
-
-			<offer id="3" available="true">
-				<name>Искусство работы с ошибками и безмолвной паники в Go (Golang)</name>
-				<url>https://golang-ninja.ru/?utm_source=habr_career&amp;utm_medium=cpa&amp;utm_campaign=general#store</url>
-				
-				<price>24760</price>
-				<oldprice>39620</oldprice>
-				<currencyId>RUB</currencyId> 
-
-				<specialization>Бэкенд разработчик</specialization> 
-				
-				<param name="Дата начала">В любой момент</param>
-				<duration unit="week">9</duration> 
-				
-				<skills>
-					<skill id="1">Assembler</skill>
-					<skill id="2">Docker</skill>
-					<skill id="3">Git</skill>
-					<skill id="4">Golang</skill>
-					<skill id="5">Тестирование ПО</skill>
-				</skills>
-				<description>Специализация в двух частях, в течение которой мы учимся фундаментальным вещам – правильно ошибаться и паниковать в Go.</description>
-
-				<param name="Оплата в рассрочку" unit="месяц">Нет</param>
-				<param name="Формат занятий">online</param> 
-				<param name="Требуемая квалификация">Middle</param> 
-				<param name="Получаемая квалификация">Senior</param> 
-				<param name="Выдаётся сертификат">Да</param> 
-				<param name="Помощь с трудоустройством">Нет</param> 
-			</offer>
-
-			<offer id="4" available="true">
 				<name>Искусство написания сервиса на Go (Golang). Часть 1</name>
 				<url>https://golang-ninja.ru/writing-go-service?utm_source=habr_career&amp;utm_medium=cpa&amp;utm_campaign=general</url>
 				
@@ -134,12 +45,101 @@
 					<skill id="21">Тестирование сайтов</skill>
 					<skill id="22">Функциональное тестирование</skill>
 				</skills>
-				<description>Глобальная задача курса – написать с нуля бекенд для чата поддержки банка. Финальный шаг в овладении мастерством Golang.</description>
+				<description>Глобальная задача курса – написать с нуля &lt;strong&gt;бекенд для чата поддержки банка&lt;/strong&gt; со всеми вытекающими. После прохождения курса не должно остаться непонятных моментов в том, как могут быть разработаны и устроены сервисы на Go.&lt;br&gt;Начнем с обсуждения архитектуры, организации пакетов, директорий и инструментов, необходимых для локальной разработки. Спроектируем и реализуем клиентское и менеджерское API, поиграемся с фреймворками и кодогенерацией. Подключим аутентификацию, хранилище и очереди. Не забудем про логирование, конфигурирование и развертывание. И, конечно же, тесты!</description>
 
 				<param name="Оплата в рассрочку" unit="месяц">Нет</param>
 				<param name="Формат занятий">online</param> 
 				<param name="Требуемая квалификация">Senior</param> 
 				<param name="Получаемая квалификация">Lead</param> 
+				<param name="Выдаётся сертификат">Да</param> 
+				<param name="Помощь с трудоустройством">Нет</param> 
+			</offer>
+
+			<offer id="2" available="true">
+				<name>Искусство работы с ошибками и безмолвной паники в Go (Golang)</name>
+				<url>https://golang-ninja.ru/?utm_source=habr_career&amp;utm_medium=cpa&amp;utm_campaign=general#store</url>
+				
+				<price>24760</price>
+				<oldprice>39620</oldprice>
+				<currencyId>RUB</currencyId> 
+
+				<specialization>Бэкенд разработчик</specialization> 
+				
+				<param name="Дата начала">В любой момент</param>
+				<duration unit="week">9</duration> 
+				
+				<skills>
+					<skill id="1">Assembler</skill>
+					<skill id="2">Docker</skill>
+					<skill id="3">Git</skill>
+					<skill id="4">Golang</skill>
+					<skill id="5">Тестирование ПО</skill>
+				</skills>
+				<description>Специализация в двух частях, в течение которой мы учимся фундаментальным вещам – правильно ошибаться и паниковать в Go.</description>
+
+				<param name="Оплата в рассрочку" unit="месяц">Нет</param>
+				<param name="Формат занятий">online</param> 
+				<param name="Требуемая квалификация">Middle</param> 
+				<param name="Получаемая квалификация">Senior</param> 
+				<param name="Выдаётся сертификат">Да</param> 
+				<param name="Помощь с трудоустройством">Нет</param> 
+			</offer>
+
+			<offer id="3" available="true">
+				<name>Искусство работы с ошибками в Go (Golang)</name>
+				<url>https://golang-ninja.ru/?utm_source=habr_career&amp;utm_medium=cpa&amp;utm_campaign=general#store</url>
+				
+				<price>17330</price> 
+				<oldprice>27730</oldprice>
+				<currencyId>RUB</currencyId> 
+				
+				<specialization>Бэкенд разработчик</specialization> 
+				
+				<param name="Дата начала">В любой момент</param>
+				<duration unit="week">6</duration> 
+				
+				<skills> 
+					<skill id="1">Docker</skill>
+					<skill id="2">Git</skill>
+					<skill id="3">Golang</skill>
+					<skill id="4">Тестирование ПО</skill>
+				</skills>
+				<description>Грамотная обработка ошибок – это залог отказоустойчивости твоего приложения, и здесь не всё так очевидно, как кажется на первый взгляд. &lt;strong&gt;if err := buyCourse(); err != nil { promotion(); }&lt;/strong&gt;</description>
+
+				<param name="Оплата в рассрочку" unit="месяц">Нет</param>
+				<param name="Формат занятий">online</param> 
+				<param name="Требуемая квалификация">Middle</param> 
+				<param name="Получаемая квалификация">Senior</param> 
+				<param name="Выдаётся сертификат">Да</param> 
+				<param name="Помощь с трудоустройством">Нет</param> 
+			</offer>
+
+			<offer id="4" available="true">
+				<name>Искусство безмолвной паники в Go (Golang)</name>
+				<url>https://golang-ninja.ru/?utm_source=habr_career&amp;utm_medium=cpa&amp;utm_campaign=general#store</url>
+				
+				<price>13620</price>
+				<oldprice>21790</oldprice>
+				<currencyId>RUB</currencyId> 
+				
+				<specialization>Бэкенд разработчик</specialization> 
+				
+				<param name="Дата начала">В любой момент</param>
+				<duration unit="week">3</duration> 
+				
+				<skills>
+					<skill id="1">Assembler</skill>
+					<skill id="2">Docker</skill>
+					<skill id="3">Git</skill>
+					<skill id="4">Golang</skill>
+					<skill id="5">Тестирование ПО</skill>
+				</skills>
+				<description>Без паники – мы не на Титанике! По полочкам разбираем панику в Go, а также неотрывно связанный с ней механизм отложенных функций. Кто боится кода рантайма и ассемблера, тому не входить!</description>
+
+				<param name="Оплата в рассрочку" unit="месяц">Нет</param>
+				<param name="Формат занятий">online</param> 
+				<param name="Требуемая квалификация">Middle</param> 
+				<param name="Получаемая квалификация">Senior</param> 
 				<param name="Выдаётся сертификат">Да</param> 
 				<param name="Помощь с трудоустройством">Нет</param> 
 			</offer>
